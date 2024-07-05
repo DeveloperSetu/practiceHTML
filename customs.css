@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header > nav > ul > li{
+    list-style: none;
+}
+
+header > nav{
+    background: #FF940B;
+}
+header > nav > ul{
+    display: flex;
+    flex-direction:row;
+}
+
+header > nav > ul > li{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+header > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 0px solid white;
+    }
+
+    header >ul > li > a:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+p{
+    text-align: justify;
+}
+
+#uparrow{
+    position: fixed;
+    right: 2%;
+    top: 90%;
+}
+
+#calender > table{
+    border-collapse: collapse;
+}
+
+#calender > tr ,td{
+    border: 1px solid black;
+}
+
+#calender > table.days{
+    background-color: lightyellow;
+}
+
+#calender > table.weekend{
+    background-color: lightblue;
+}

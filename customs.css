@@ -7,12 +7,35 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
+p{
+    text-align: justify;
+}
+#topHeader{
+    background: white;
+    padding: 3px;
+    color: black;
+}
+
+#topHeader > ul{
+    display: flex;
+    justify-content: end;
+}
+
+#topHeader > a{
+    text-decoration: none;
+}
+
 header > nav > ul > li{
     list-style: none;
 }
 
 header > nav{
     background: #FF940B;
+    width: 100%;
 }
 header > nav > ul{
     display: flex;
@@ -29,21 +52,16 @@ header > nav > ul > li > a{
     color: white;
     text-decoration: none;
     border-bottom: 0px solid white;
-    }
+}
 
     header >ul > li > a:hover{
     color: white;
     text-decoration: none;
     border-bottom: 2px solid white;
 }
-p{
-    text-align: justify;
-}
-
-#uparrow{
+.sticky{
     position: fixed;
-    right: 2%;
-    top: 90%;
+    top: 0;
 }
 
 #calender > table{
@@ -60,4 +78,11 @@ p{
 
 #calender > table.weekend{
     background-color: lightblue;
+}
+
+#uparrow{
+    position: fixed;
+    right: 2%;
+    top: 90%;
+    display: none;
 }
